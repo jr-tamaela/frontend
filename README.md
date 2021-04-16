@@ -1,0 +1,27 @@
+## Setup Project
+
+Run the following command to install dependencies
+
+```bash
+npm install
+### or ###
+yarn
+```
+
+To Develop with live reload:
+
+```bash
+npm run dev
+### or ###
+yarn dev
+```
+
+Edit HTML in `index.html`
+
+Edit Javascript in `index.js`
+
+Edit SCSS in scss Folder
+
+### Instructions
+
+See the Designs Folder with XD file - Choose one the designs and implement it.

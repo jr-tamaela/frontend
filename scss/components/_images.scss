@@ -1,0 +1,24 @@
+.img-round-author {
+  background-color: $grey;
+  border: none;
+  color: $dark;
+  padding: 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  width: 96px;
+  height: 96px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.img-round-profile {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  border: none;
+  display: inline-block;
+  background-color: $grey;
+}

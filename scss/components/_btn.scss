@@ -1,0 +1,44 @@
+.btn-primary {
+  background-color: $primary;
+  border: 1px solid $primary;
+  color: #fff;
+  &:hover {
+    background-color: $light;
+    border: 1px solid $primary;
+    transition: 0.3s ease-in-out;
+    color: $light;
+  }
+}
+
+.btn-primary.nav-link:hover {
+  color: $tertiary;
+}
+
+.btn-secondary {
+  background-color: transparent;
+  border: 1px solid $light;
+  color: $light;
+}
+
+.btn-round {
+  background-color: $grey;
+  border: none;
+  color: $dark;
+  padding: 12px;
+  text-align: center;
+  text-decoration: none;
+  position: absolute;
+  bottom: 0px;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.btn-square {
+  width: 86px;
+  height: 86px;
+}

@@ -1,0 +1,10 @@
+.navbar-dark .navbar-nav .nav-link {
+  color: $light;
+  &:hover {
+    color: $primary;
+  }
+}
+
+.breadcrumb {
+  background-color: $light;
+}

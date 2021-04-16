@@ -1,0 +1,51 @@
+.card {
+  background-color: $dark;
+  padding: 15px;
+}
+
+.contentCard {
+  background-color: $dark;
+  color: $light;
+  border-radius: 15px;
+  height: 848px;
+  padding: 50px 15px 38px 15px;
+}
+
+.eventCard {
+  padding: 0px 0px 0px 15px;
+  background-color: $accent_3;
+  color: $light;
+  overflow: hidden;
+  max-height: 218px;
+}
+
+.card-img {
+  border-bottom-left-radius: 0px;
+  border-top-left-radius: 0px;
+}
+
+.categoryCard {
+  @extend .eventCard;
+  padding: 15px;
+  background-color: $accent_2;
+  height: 350px;
+  max-height: 350px;
+}
+
+.card-title {
+  color: $light;
+  h4 {
+    color: $dark;
+    margin-bottom: 15px;
+  }
+}
+
+.card-text {
+  p {
+    color: $dark;
+  }
+}
+
+.streamCard {
+  height: 730px;
+}
