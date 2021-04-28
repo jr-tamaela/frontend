@@ -57,10 +57,11 @@
 
 // second page
 .badge-container {
-  justify-content: space-between;
-  flex-direction: row;
+  background-color: grey;
+  display: inline-flex;
   flex-wrap: wrap;
-  width: calc(#{$badge-width * 6} + 0.5rem);
+  padding: 15px;
+  //width: calc(#{$badge-width * 6} + 0.5rem);
 
   .img-round-profile {
     width: 50px;
