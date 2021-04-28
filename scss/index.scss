@@ -17,8 +17,7 @@
 }
 .content-scroll-container {
   overflow: scroll;
-  height: calc(#{$height * 3} + 8px);
+  height: calc(#{$height * 3} + 0.5rem);
   border-radius: 0px;
   border: 0px solid #000;
-  background-color: #fff;
 }
