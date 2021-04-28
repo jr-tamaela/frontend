@@ -60,7 +60,8 @@
   background-color: grey;
   display: inline-flex;
   flex-wrap: wrap;
-  padding: 15px;
+  padding: 10px;
+  margin: 5px;
   //width: calc(#{$badge-width * 6} + 0.5rem);
 
   .img-round-profile {
@@ -70,6 +71,5 @@
     border: none;
     display: inline-block;
     background-color: $grey;
-    flex-grow: 3;
   }
 }
