@@ -1,15 +1,16 @@
 .event-detail-header {
   background-image: url("../images/detailHeader.png");
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
+  background-position: center;
 }
 
-.header-background {
-  background-image: linear-gradient(red, yellow);
-}
+// .header-background {
+//   background-image: linear-gradient(red, yellow);
+// }
 
 .header-text-block {
-  position: absolute;
+  //position: absolute;
   bottom: 45;
   left: 35;
   span {

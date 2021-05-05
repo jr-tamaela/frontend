@@ -59,8 +59,7 @@
 .badge-container {
   display: inline-flex;
   flex-wrap: wrap;
-  padding: 10px;
-  margin: 5px;
+  padding: 0.25rem;
   //width: calc(#{$badge-width * 6} + 0.5rem);
 
   .img-round-profile {
